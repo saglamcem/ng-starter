@@ -23,6 +23,8 @@
       "@shared/*": ["src/app/modules/shared/*"],
       "@feature/*": ["src/app/modules/feature/*"],
       "@mocks/*": ["src/app/__mocks__/*"]
-    }
+    },
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
   }
 }
