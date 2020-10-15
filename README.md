@@ -1,6 +1,22 @@
 # NgStarter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+This project serves as a base project with some guidelines I try to follow in any Angular project. 
+
+#### Includes 
+
+* a core / shared / feature module architecture 
+* Jest as the testing tool instead of Karma 
+* Angular Material as the ui component library 
+
+#### To add: 
+
+* Cypress will replace Protractor for e2e testing 
+
+You'd like to use the project but feel like it's missing something? Feel free to let me know in issues and contribute via PR's.
+
+---
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7. 
 
 ## Development server
 
@@ -16,7 +32,9 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests via [~~Karma~~](https://karma-runner.github.io) [Jest](https://jestjs.io/). 
+More information on [this article](https://medium.com/angular-in-depth/integrate-jest-into-an-angular-application-and-library-163b01d977ce).
+
 
 ## Running end-to-end tests
 
