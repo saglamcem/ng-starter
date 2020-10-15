@@ -1,0 +1,53 @@
+@import './colors.scss';
+
+.icon {
+  transition: all .2s ease-in;
+  cursor: default;
+
+  &.icon-hoverable {
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.3);
+    }
+  }
+
+  &.icon-x-1q {
+    transform: scale(1.25);
+  }
+
+  &.icon-x-2q {
+    transform: scale(1.5);
+  }
+
+  &.icon-x-3q {
+    transform: scale(1.75);
+  }
+
+  &.icon-2x {
+    transform: scale(2);
+  }
+
+  &.icon-3x {
+    transform: scale(3);
+  }
+
+  &.icon-color {
+    color: black;
+
+    &.blue {
+      color: $blue;
+    }
+
+    &.red, &.fail {
+      color: $red;
+    }
+
+    &.neutral {
+      color: steelblue;
+    }
+
+    &.success {
+      color: limegreen;
+    }
+  }
+}
