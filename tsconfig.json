@@ -15,6 +15,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@modules/*": ["src/app/modules/*"],
+      "@core/*": ["src/app/modules/core/*"],
+      "@shared/*": ["src/app/modules/shared/*"],
+      "@feature/*": ["src/app/modules/feature/*"],
+      "@mocks/*": ["src/app/__mocks__/*"]
+    }
   }
 }
