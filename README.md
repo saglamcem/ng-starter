@@ -6,11 +6,8 @@ This project serves as a base project with some guidelines I try to follow in an
 
 * a core / shared / feature module architecture 
 * Jest as the testing tool instead of Karma 
+* Cypress for e2e instead of Protractor 
 * Angular Material as the ui component library 
-
-#### To add: 
-
-* Cypress will replace Protractor for e2e testing 
 
 You'd like to use the project but feel like it's missing something? Feel free to let me know in issues and contribute via PR's.
 
@@ -35,10 +32,10 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Run `ng test` to execute the unit tests via [~~Karma~~](https://karma-runner.github.io) [Jest](https://jestjs.io/). 
 More information on [this article](https://medium.com/angular-in-depth/integrate-jest-into-an-angular-application-and-library-163b01d977ce).
 
-
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `ng e2e` to execute the end-to-end tests via [~~Protractor~~](http://www.protractortest.org/) [Cypress](https://www.cypress.io/).
+More information on [this article](https://medium.com/briebug-blog/switching-to-cypress-from-protractor-in-less-than-30-seconds-b60b00def4a0).
 
 ## Further help
 
